@@ -1,7 +1,13 @@
+* {
+    margin: 0;
+    padding: 0; /*Esse é o básico dos RESETs, aonde você só reseta a margem e o padding geral.*/
+}
+
 body {
     background-color: black;
     color: #F6F6F6;
 }
-strong {
+
+.titulo_destaque {
     color:#22D4FD;
 }
