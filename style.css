@@ -17,7 +17,7 @@ body {
 }
 
 .apresentacao {
-    margin: 7%;
+    margin: 7% 10%;
     display: flex;/*Ele coloca no padrão a direção de linha o "row", ele é o elemento pai.*/
     align-items: center; /*Só que é a imagem quem determina o alinhamento, e por quê ela? Porque ela é a de maior altura, então eles seguem o padrão dela.*/
     justify-content: space-between; /*Foi criado a tag "section" para renomear os filhos da tag "main" e para deixar um espaçamento de acordo, foi usado a propriedade "space-between"*/
@@ -25,6 +25,9 @@ body {
 
 .apresentacao__conteudo {
     width: 615px; /*Esta largura está de acordo com a LARGURA do bloco de texto do FIGMA*/
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /*O GAP do FLEXBOX determina o espaçamento entre os elementos filhos, ou seja, ele distribui o espaçamento igual para todos.*/
 }
 
 .apresentacao__conteudo__titulo {
@@ -53,8 +56,7 @@ body {
     border-radius: 16px;
     font-size: 24px;
     padding: 21.5px 0;
-    margin: 20px;
-    margin-left: 5px; /*Fiz isso pois estava muito grudado, então alterei as margens*/
+    /*Fiz isso pois estava muito grudado, então alterei as margens /// com a alteração colocando o GAP nele, não foi necessário a utilização das margens, pois o espaçamento já foi definido.*/
     text-decoration: none;
     color:black;
     font-family: "Montserrat", sans-serif;
