@@ -40,3 +40,8 @@ body {
     font-weight: 400;
     font-style: normal;
 }
+
+.apresentacao__links {
+    display: flex;
+    justify-content: space-between;
+}
