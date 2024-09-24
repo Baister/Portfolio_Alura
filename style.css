@@ -52,16 +52,24 @@ body {
     gap: 32px;
 }
 
+.apresentacao_links_subtitulo {
+    font-size: 24px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-style:normal;
+
+}
+
 .apresentacao__links__link {
-    background-color:#22D4FD;
-    width: 280px;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
+    border:2px solid #22D4FD;
     font-size: 24px;
     padding: 21.5px 0;
     /*Fiz isso pois estava muito grudado, então alterei as margens /// com a alteração colocando o GAP nele, não foi necessário a utilização das margens, pois o espaçamento já foi definido.*/
     text-decoration: none;
-    color:black;
+    color:#f6f6f6;
     font-family: "Montserrat", sans-serif;
     font-weight: 600; /*Porque sem ele a fonte estava muito fina*/
 }
