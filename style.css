@@ -6,8 +6,7 @@
 
 body {
     box-sizing:border-box; /*Esse é o melhor para conter o elemento filho, nada vai sair conforme forem criando.*/
-    width: 100%;
-    height:100vh; /*É o 100% do viewport HEIGHT, por isso o "vh"*/
+    /* height:100vh; É o 100% do viewport HEIGHT, para deixar todo o conteúdo visível, por isso o "vh". 24/09/ Agora já não é mais necessário utilizá-lo, pois o conteúdo já está ultrapassando a página, com a adição do rodapé e cabeçalho, mas vou deixar como comentário. Agora, sem ele, o body vai pegar a página inteira*/
     background-color: black;
     color: #F6F6F6;
 }
@@ -17,7 +16,7 @@ body {
 }
 
 .apresentacao {
-    margin: 7% 10%;
+    padding: 8% 10%;
     display: flex;/*Ele coloca no padrão a direção de linha o "row", ele é o elemento pai.*/
     align-items: center; /*Só que é a imagem quem determina o alinhamento, e por quê ela? Porque ela é a de maior altura, então eles seguem o padrão dela.*/
     justify-content: space-between; /*Foi criado a tag "section" para renomear os filhos da tag "main" e para deixar um espaçamento de acordo, foi usado a propriedade "space-between"*/
@@ -80,5 +79,16 @@ body {
 
 .apresentacao__links__link:hover { /*Isso é feito para quando passar o mouse por cima ele mudar de cor, sabe aquela interação. KKKKK tá bonito esse projeto em*/
     background-color:#272727;
+    padding: 3%;
 
+}
+
+.rodape {
+    color: black;
+    background-color: #22D4FD;
+    padding: 23.64px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px;
+    font-weight: 300;
 }
