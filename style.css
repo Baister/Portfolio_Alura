@@ -77,3 +77,8 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 600; /*Porque sem ele a fonte estava muito fina*/
 }
+
+.apresentacao__links__link:hover { /*Isso é feito para quando passar o mouse por cima ele mudar de cor, sabe aquela interação. KKKKK tá bonito esse projeto em*/
+    background-color:#272727;
+
+}
