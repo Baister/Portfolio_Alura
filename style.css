@@ -47,6 +47,9 @@ body {
 .apresentacao__links {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    align-items: center; /*Estamos usando isso para alinhar a coluna no centro com a vertical! E isso é uma propriedade do flexbox/*/
+    gap: 32px;
 }
 
 .apresentacao__links__link {
