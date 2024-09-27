@@ -44,6 +44,7 @@ body {
     display: flex;/*Ele coloca no padrão a direção de linha o "row", ele é o elemento pai.*/
     align-items: center; /*Só que é a imagem quem determina o alinhamento, e por quê ela? Porque ela é a de maior altura, então eles seguem o padrão dela.*/
     justify-content: space-between; /*Foi criado a tag "section" para renomear os filhos da tag "main" e para deixar um espaçamento de acordo, foi usado a propriedade "space-between"*/
+    gap: 82px;/*O gap está sendo utilizado para a responsividade!*/
 }
 
 .apresentacao__conteudo {
@@ -124,4 +125,11 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
     font-weight: 300;
+}
+
+
+@media (max-width: 988px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
 }
