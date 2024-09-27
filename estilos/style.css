@@ -47,7 +47,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 615px; /*Esta largura está de acordo com a LARGURA do bloco de texto do FIGMA*/
+    width: 50%; /*Esta largura está de acordo com a LARGURA do bloco de texto do FIGMA*/
     display: flex;
     flex-direction: column;
     gap: 40px; /*O GAP do FLEXBOX determina o espaçamento entre os elementos filhos, ou seja, ele distribui o espaçamento igual para todos.*/
@@ -93,7 +93,7 @@ body {
     justify-content: center; /*Pronto, agora trouxe os ícones para o centro.*/
     gap: 16px; /*Agora o espaçamento está bonitinho  :) */
 
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     border:2px solid var(--cor-terciaria);
@@ -110,6 +110,10 @@ body {
     background-color:var(--cor-hover);
     padding: 3%;
 
+}
+
+.apresentacao__imagem {
+    width: 50%;
 }
 
 .rodape {
