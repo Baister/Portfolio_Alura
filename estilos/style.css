@@ -129,6 +129,15 @@ body {
 
 
 @media (max-width: 988px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        /*display: flex; Não precisa reescrever o display:flex; porque ele já tem de lá de cima*/
+        justify-content: center;
+    }
+
     .apresentacao {
         flex-direction: column-reverse;
     }
